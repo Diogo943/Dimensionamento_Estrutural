@@ -13,7 +13,7 @@ class Dimensionamento:
 
     def volume_agua_deslocado(self):
 
-        volume_deslocado = sum(self.pesos) / densidade_agua
+        volume_deslocado = sum(self.pesos) / self.DENSIDADE_AGUA
         return volume_deslocado
 
     def empuxo_vertical(self):
